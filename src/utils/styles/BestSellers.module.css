@@ -1,0 +1,103 @@
+.body {
+    background-color: #FBF9EF;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 0.5px solid rgba(30, 30, 30, 0.8);
+}
+
+.header {
+    border-bottom: 0.5px solid rgba(30, 30, 30, 0.8);
+}
+
+.header div {
+    margin-left: 2.125em;
+}
+
+.header p {
+    font-family: 'Beausite Classic Web';
+    font-style: normal;
+    font-weight: 350;
+    font-size: 2.875rem;
+    line-height: 3.4375rem;
+    color: #1E1E1E;
+}
+
+.body_inner {
+    display: flex;
+    margin: 0px 2.125em;
+    margin-top: 110px;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 25em;
+    margin-bottom: 112px;
+    border-radius: 16px;
+}
+
+.card_image_wrapper {
+    display: flex;
+    width: 100%;
+    height: 21.6875em;
+    overflow: hidden;
+    position: relative;
+    border-radius: 16px;
+}
+
+.card_image_wrapper_inner {
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    border-radius: 16px;
+}
+
+.card_image_wrapper_inner img {
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card_image_wrapper_inner img:hover {
+    transform: scale(1.1);
+    border-radius: 16px;
+}
+
+.name {
+    margin: auto;
+}
+
+.button {
+    width: 7.4375em;
+    margin: auto;
+    height: 2.6875em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.75em, 1.375em, 0.75em, 1.375em;
+    gap: 8px;
+    border: 0.5px solid rgba(30, 30, 30, 0.8);
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.button p {
+    font-family: 'Beausite Classic Web';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem !important;
+    line-height: 1.1875rem;
+}
+
+.button:hover,
+.button:hover p,
+.button:hover svg path {
+    background-color: #142510;
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    transition: all 0.2s ease-in-out;
+}

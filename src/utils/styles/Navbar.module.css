@@ -1,0 +1,70 @@
+.body {
+    top: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.body_inner {
+    z-index: 10;
+    display: flex;
+    margin: 0px 35px;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.body_logo {
+    margin-right: 73px;
+}
+
+.body_logo p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 27px;
+
+    color: #707364;
+}
+
+.body_inner_wrapper {
+    display: flex;
+    flex: 1;
+}
+
+.body_options {
+    display: flex;
+    max-width: 30%;
+    align-items: center;
+    flex: 1;
+}
+
+.body_options p {
+    margin-right: 30px;
+    font-family: 'Beausite Classic Web';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 19px;
+
+    color: rgba(30, 30, 30, 0.8);
+}
+
+.body_registration {
+    display: flex;
+    flex: 1;
+    max-width: 20%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.body_registration p {
+    margin-left: 30px;
+    font-family: 'Beausite Classic Web';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 19px;
+
+    color: #1E1E1E;
+}

@@ -1,0 +1,21 @@
+.body {
+    background-color: #FBF9EF;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 0.5px solid rgba(30, 30, 30, 0.8);
+}
+
+.body_inner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 3.125em;
+}
+
+.body_inner div p {
+    font-family: 'Beausite Classic Web';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.1875rem;
+    line-height: 1.4375rem;
+    color: rgba(30, 30, 30, 0.8);
+}

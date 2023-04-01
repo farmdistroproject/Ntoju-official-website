@@ -1,0 +1,17 @@
+.body {
+    background-color: #FBF9EF;
+    display: flex;
+    border-bottom: 0.5px solid rgba(30, 30, 30, 0.8);
+}
+
+.body p {
+    font-family: 'Beausite Classic Web';
+    font-style: normal;
+    font-weight: 350;
+    font-size: 4.125rem;
+    line-height: 90px;
+    margin: 148px 120px;
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: #1E1E1E;
+}
